@@ -5,6 +5,7 @@ const initialState = {
   favorites: [],
   savedResults: [],
   favsPageOn: false,
+  commentsOn: false,
   firstRender: true,
   comments: [],
 };
@@ -41,7 +42,7 @@ const mainReducer = (state = initialState, action) => {
       return {
         ...state,
         searchResults: state.savedResults,
-        saveResults: [],
+        savedResults: [],
         favsPageOn: false,
       }
     case types.ADD_COMMENT:
