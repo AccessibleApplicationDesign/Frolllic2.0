@@ -5,6 +5,12 @@ An app for finding accessible venues
   
   Frollic is a website meant to assist those who are searching for handicap accessible public venues
    - A focus on website readility with Semantic HTML
+
+Contributors:
+  - Justin Hicks
+  - Evan Crews
+  - Drake Williams
+  - David Lee
   
   TO DEVELOP ON
   
